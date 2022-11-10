@@ -1,0 +1,47 @@
+
+body{
+    
+    margin: 10px;
+    border-style: double;
+    border-radius: 10px;
+    animation: changeBg 10s linear infinite;
+    display: grid;
+    place-items: center;
+    
+}  
+      
+      @keyframes changeBg {
+      0%{
+        background-color: green;
+        }
+      20%{
+        background-color: yellow;
+        }
+      40%{
+        background-color: grey;
+        }
+      60%{
+        background-color: rgb(0, 247, 255);
+        }
+      80%{
+        background-color: purple;
+        }
+      100%{
+        background-color: orange;
+        }
+      }
+      
+    
+
+table {
+     
+    border-style: ridge;
+    
+}
+button{
+  color: rgb(58, 165, 42);
+  background-color: rgb(165, 42, 42);
+}
+Email,button{
+  background-color: antiquewhite;
+}
